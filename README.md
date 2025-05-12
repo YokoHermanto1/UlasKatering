@@ -1,6 +1,6 @@
-# Ulas Katering
+# UlasKatering
 
-Ulas Katering Web Rating and Reviewer
+UlasKatering Web Rating and Reviewer
 
 ## Install the dependencies
 ```bash
