@@ -33,7 +33,7 @@
     </div>
 
     <div class="row justify-center q-gutter-md">
-      <KateringCard v-for="(item, i) in items" :key="i" :item="item" :linkable="false" />
+      <KateringCard v-for="(item, i) in items" :key="i" :item="item" :linkable="true" />
     </div>
   </div>
   <!-- Block 2 -->
@@ -70,11 +70,12 @@ import FooterComponent from '../layouts/FooterComponent.vue'
 
 const items = [
   {
-    name: 'Lala Catering',
-    location: 'Jakarta Timur',
+    id:1,
+    name: ' Akasya Catering & Co',
+    location: 'Jakarta Selatan',
     category: 'Katering',
-    rating: '5.0',
-    image: 'https://linkgambar1.jpg',
+    rating: '4.4',
+    image: '../src/assets/AkasyaCatering.jpeg',
   },
   {
     name: 'Bungkushin',
