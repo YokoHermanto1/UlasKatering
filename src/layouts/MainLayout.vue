@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lhh Lpr lFf">
-    <q-header bordered class="bg-blue-grey-8 text-black, q-py-sm" style="background-color: #916236">
+    <q-header bordered class="bg-brown text-black, q-py-sm" style="background-color: #916236">
       <q-toolbar>
         <q-toolbar-title
           ><router-link to="/" class="q-mt-sm q-ml-md" style="text-decoration: none">

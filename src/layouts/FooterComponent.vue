@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-wrapper bg-blue-grey-8">
+  <div class="footer-wrapper bg-brown">
     <div class="footer-content">
       <!-- Kiri: Logo dan Info -->
       <div class="footer-info">
