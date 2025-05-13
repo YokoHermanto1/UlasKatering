@@ -1,8 +1,8 @@
 <template>
   <div class="q-pa-lg q-gutter-md">
-    <div class="row flex-center" style="max-width: 1500px;margin: 35px auto">
+    <div class="row flex-center" style="max-width: 1000px;margin: 35px auto">
       <!-- Kolom Gambar -->
-      <div class="col-12 col-md-4 flex flex-center q-mb-md">
+      <div class="col-12 col-md-4 flex flex-center q-mb-md q-pl-md">
         <q-img
           :src="katering?.image"
           :alt="katering?.name"
@@ -12,16 +12,16 @@
       </div>
 
       <!-- Kolom Konten -->
-      <div class="col-12 col-md-7">
+      <div class="col-12 col-md-7 q-mx-sm q-px-md">
         <div class="text-h6 text-bold q-mb-sm">{{ katering?.name }}</div>
 
         <!-- Rating Aspek -->
-        <div class="row q-col-gutter-sm q-mb-md">
+        <div class="row q-col-gutter-sm q-mb-md justify-start">
           <div
             v-for="(rating, index) in ratingAspek"
             :key="index"
             class="col-auto"
-            style="min-width: 123.5px"
+            style="min-width: 110px"
           >
             <div
               style="
@@ -60,7 +60,7 @@
         </div>
 
         <!-- Tombol Aksi -->
-        <div class="row justify-start q-gutter-sm">
+        <div class="row justify-center q-gutter-sm">
           <q-btn
             label="TULIS REVIEW"
             color="red"
@@ -68,7 +68,7 @@
             size="md"
             no-caps
             unelevated
-            style="min-width: 300px"
+            style="min-width: 270px"
           />
           <q-btn
             label="RATING"
@@ -77,7 +77,7 @@
             size="md"
             no-caps
             unelevated
-            style="min-width: 300px"
+            style="min-width: 270px"
           />
         </div>
       </div>
