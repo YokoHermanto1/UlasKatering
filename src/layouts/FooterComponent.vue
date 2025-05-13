@@ -9,8 +9,8 @@
         </div>
         <div class="tagline">Tempat berbagi pengalaman kuliner katering</div>
         <div class="alamat">
-          Jl. Dr. Muwardi I no 15A, Grogol, Jakarta Barat, 11450<br />
-          021 2295 6067 | info@ulaskatering.com
+          Jl. Raya Kb. Jeruk No.27, Kemanggisan, Jakarta Barat, 11530<br />
+          0804 169 6969 | info@ulaskatering.com
         </div>
       </div>
 
@@ -48,7 +48,7 @@
     </div>
 
     <div class="copyright">
-      © copyrights UlasKatering.com - {{ new Date().getFullYear() }}
+      © copyrights UlasKatering - {{ new Date().getFullYear() }}
     </div>
   </div>
 </template>

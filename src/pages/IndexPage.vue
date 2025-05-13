@@ -85,7 +85,7 @@ const items = [
     location: 'Jl. Pancoran Timur No. 21, Jakarta Selatan',
     category: 'Katering',
     rating: '4.5',
-    image: '../src/assets/PuspaCatering.png',
+    image: '../src/assets/PuspaCatering.jpeg',
   },
   {
     id: 4,
