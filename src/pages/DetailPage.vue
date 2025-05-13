@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-lg q-gutter-md">
-    <div class="row flex-center" style="max-width: 1000px;margin: 35px auto">
+    <div class="row flex-center" style="max-width: 1000px; margin: 35px auto">
       <!-- Kolom Gambar -->
       <div class="col-12 col-md-4 flex flex-center q-mb-md q-pl-md">
         <q-img
@@ -82,7 +82,7 @@
         </div>
       </div>
     </div>
-    <q-separator  class="flex-center" style="max-width: 1300px; margin: 35px auto" />
+    <q-separator class="flex-center" style="max-width: 1300px; margin: 35px auto" />
   </div>
 </template>
 
